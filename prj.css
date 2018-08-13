@@ -1,0 +1,185 @@
+.b1{
+
+position:absolute; 
+font-size: 100%;
+ 
+border: 5px ridge lightgrey;
+ 
+padding: 1%;
+
+padding-right:2% 
+border-radius:4px;
+ 
+font-family:"Times New Roman",serif;
+ 
+background-color:rgb(248,248,255);
+ 
+margin-right:70%;
+margin-top:1%;
+margin-bottom:1%;
+margin-left:1%;
+z-index:1; 
+}
+
+.dv1{
+
+background-color: rgba(112,128,144,0.7);
+border-radius:5px;
+
+height:12%;
+margin-top:0;
+margin-bottom:0.5%;
+}
+
+.dv3{
+margin-left:5px;
+border-left: 5px solid teal;
+padding-left:2px;
+outline-style:double;
+font-size:300%;
+font-family:Old English Text MT;
+color:black;
+position:absolute;
+background-color:rgba(255,255,255,0.5 );
+ 
+left:30%;
+top:2.5%;
+width:68%;
+text-shadow:2px 2px white;
+} 
+b2 {
+ 
+font-weight:bold;
+ 
+text-shadow: 1px 1px grey;
+ 
+}
+
+.i1{
+
+border-radius:5px;
+
+width:96%;
+
+margin-left:15px;
+
+margin-right:10px;
+
+z-index:-1;
+
+position:relative;
+
+}
+
+.i2{
+
+position:absolute;
+
+padding-left:18%;
+
+}
+
+.ul1{
+
+position: absolute;
+
+right:5%;
+
+top:30%;
+
+z-index:1;
+
+}
+
+li{
+
+display:inline;
+
+}
+
+.li1{
+font-size:120%;
+
+display:inline;
+
+background-color:rgba(255,255,255,0.3);
+
+border-right:2px solid white;
+
+padding-top:40%;
+
+padding-right:7px;
+
+padding-left:5px;
+
+padding-bottom:5px;
+
+color:white;
+
+}
+
+.li1:hover{
+
+color:black;
+
+background-color: lightblue;
+
+box-shadow:2px 2px rgba(255,255,0,0.3);
+
+}
+
+.dv2{
+
+display:inline-block;
+
+margin:0px 10px 0px 10px;
+
+width:30%;
+
+height:30%;
+
+border: 5px ridge olive;
+
+border-radius:20px;
+
+box-shadow:5px 5px rgba(0,0,255,0.6);
+
+z-index:-1;
+
+}
+
+
+.dv4{
+margin:0px 5px 0px 5px;
+padding:2%;
+border-radius:6px;
+outline-style:double;
+border: 5px groove silver;
+background-color:#778899;
+font-size:16px;
+font-family:Comic Sans MS;
+}
+.dv5{
+border:3px ridge silver;
+outline-style:double;
+padding:2%;
+border-radius:5px;
+background-color:rgba(255,255,255,0.4);
+}
+p{
+color:navy;
+font-family:Comic Sans MS;
+}
+h1{
+color:darkblue;
+text-shadow:3px 3px rgba(0,0,0,0.4);
+font-family:algerian;
+}
+#a{
+color:white;
+border:1px solid black;
+background-color:lightgrey;
+}
+.d1{
+padding:15px;
+}

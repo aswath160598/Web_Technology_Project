@@ -1,0 +1,240 @@
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:beige;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    font-family: cursive;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: black;
+    text-shadow:4px 4px 4px rgba(128,128,128,0.7);
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.b1{
+    position: relative;
+    display: inline-block;
+    font-size: 100%;
+}
+#main{
+    margin-top: 0;
+    padding-top: 0;
+}
+.main{
+    z-index: 2;
+}
+.dt{
+    position: absolute;
+    top: 131%;
+    left: 46%;
+    z-index: -1;
+}
+.d1{
+    width: 96%;
+    position: fixed;
+    border-bottom: 2px groove grey;
+    background-color: whitesmoke;
+    text-shadow: 3px 3px 3px rgba(128,128,128,0.5);
+}
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+
+.slideshow-container {
+  max-width: 96%;
+  position: absolute;
+  top: 20%;
+  z-index: -1;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+transition: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.p1{
+    position: relative;
+    margin-top:69%;
+    background-color:rgba(238,230,133,0.5) ;
+    padding: 2%;
+    font-family:inherit;
+    border-radius: 10px;
+    z-index: -1;
+}
+.p2{
+ background-color: rgba(238,180,34,0.3);
+padding: 2%;
+border-radius: 15px;
+z-index: 0;
+box-shadow: 0px 8px 8px rgba(128,128,128,0.7);
+}
+.p3{
+background-color: rgba(139,129,76,0.3);
+padding: 2%;
+border-radius: 15px;
+z-index: 0;
+box-shadow: 0px 8px 8px rgba(128,128,128,0.7);
+}
+.p4{
+  background-color: rgba(227,207,87,0.3);
+padding: 2%;
+border-radius: 15px;
+z-index: -2;   
+box-shadow:0 10px 10px  rgba(128,128,128,0.3);
+}
+h3,h4{
+    text-shadow: 2px 2px 2px rgba(128,128,128,0.6);
+}
+.ft1{
+    position: relative;
+    top: 80px;
+    width: 100%;
+    height: 20%;
+    padding-left: 15%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    background-color:rgba(0,0,0,0.9);
+    color:lightgrey;
+    letter-spacing: 1px;
+    font-size: 130%;
+}
+.ic{
+    padding-left: 58%;
+}
+#ic{
+    display: inline;
+}
+li{
+    display: inline;
+}
+.im1{
+    position: relative;
+    display: inline-block;
+    width: 30%;
+}
+.i{
+    position: relative;
+    width: 100%;
+}
+li.hover{
+    width: 20%;
+}
+
+.par{
+    background: radial-gradient(rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0.9)),url(bg.jpg);
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    border-radius: 15px;
+    margin-bottom: 1.3%;
+    box-shadow: 0 10px 10px rgba(128,128,128,0.7);
+}
+
+.par1{
+    background: radial-gradient(rgba(0,0,0,0),rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url(lvn3.jpg);
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    border-radius: 15px;
+    margin-bottom: 1.3%;
+    box-shadow: 0 10px 10px rgba(128,128,128,0.7);
+}
+.inn{
+    position: absolute;
+    top: 43%;
+    left: 25%;
+    width: 40%;
+    font-size: 270%;
+    color:black;
+    text-shadow: 2px 2px 0 rgba(255,255,255,0.5);
+    font-family:Edwardian Script ITC,serif;
+}

@@ -1,0 +1,38 @@
+.d1{
+position: absolute;
+top: 50%;
+right:30%;
+border: 4px ridge grey;
+padding:1%;
+z-index: 1;
+font-size: 200%;
+color: beige;
+font-family: Edwardian Script ITC;
+}
+legend{
+    font-family: Times New Roman serif;
+}
+.b{
+padding-top: 5%;
+padding-bottom: 5%;
+padding-left: 12%;
+padding-right: 12%;
+background-color: aqua;
+}
+
+.i1{
+position:relative;
+z-index: -1;
+}
+.d2{
+    position: absolute;
+    z-index: 0;
+    background-color: black;
+    width: 100%;
+}
+
+.in1{
+background: transparent;
+color:beige;
+height: 10%;
+}
